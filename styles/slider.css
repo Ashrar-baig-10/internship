@@ -1,0 +1,25 @@
+.slider{
+    margin-top: 10px;
+    width: 100%;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    position: relative;
+}
+.slider-img{
+    width: 100%;
+}
+
+.btn{
+    position: absolute;
+    height: 40px;
+    z-index: 2;
+    top: 40%;
+    height: 50px;
+    background-color: whitesmoke;
+    border: none;
+    border-radius: 10%;
+}
+.btn-r{
+    right:0;
+}

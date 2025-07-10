@@ -1,0 +1,43 @@
+.products{
+    margin:10px ;
+    background-color: white;
+    font-weight: bold;
+    font-size: 25px;
+    position: relative;
+}
+.products-items{
+    overflow: scroll;
+    margin: 10px;
+    display: flex;
+    background-color: white;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+}
+.prod{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    
+}
+.prod>span{
+    position: absolute;
+    text-align: center;
+    font-size: 15px;
+}
+.prod-img{
+    width: 200px;
+    height: auto;
+    padding-bottom: 40px;
+}
+.prod-text-bot{
+    bottom:0;
+    font-weight: 600;
+}
+.prod-text{
+    font-weight: 200;
+    bottom: 20px;
+}

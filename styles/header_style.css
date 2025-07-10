@@ -1,0 +1,67 @@
+body{
+    box-sizing: content-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif ;
+    background-color: #d3d3d3;
+    
+}
+.container{
+    font-family: sans-serif ;
+    background-color: #d3d3d3;
+    width: 100%;
+}
+.header{
+    position: fixed;
+    z-index: 4;
+    width: 100%;
+    background-color: white;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.main-logo{
+    width: 8rem ;
+    margin-left: 50px;
+}
+.images-static{
+    width: 1.2rem;
+}
+.header-left{
+    display: flex;
+    justify-content: space-between;
+}
+.header-right{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: center;
+    margin-right: 20px;
+}
+.login,.cart,.seller{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+.form{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    max-width: 800px;
+    min-width: 400px;
+    background-color: #d3d3d3;
+    border-radius: 10px;
+}
+input{
+    border-radius: 10px;
+    background-color: #d3d3d3;
+    height: 40px;
+    flex: 1;
+    border: none;
+    outline: none;
+}
+.button{
+    background-color: #d3d3d3;
+    border: none;
+}
