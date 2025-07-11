@@ -23,6 +23,7 @@ let card1=[
         span_2:"In Focus Now"
     }
 ]
+// Note: Multiple cards can be created too. I have used same array of objects of card1.  
 
 function generateCards(){
     let html1=``
