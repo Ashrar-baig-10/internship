@@ -1,6 +1,5 @@
 .main{
     padding-top: 50px;
-    box-sizing: content-box;
     width: 100%;
 }
 .navbar{
@@ -8,14 +7,14 @@
     margin:10px;
     padding: 10px;
     height: 120px;
-
+    width: 100%;
 }
 .navbar-items-list{
     display: flex;
     justify-content: space-between;
     width: 100%;
-
-
+    
+    
 }
 .nav-items{
     display: flex;
@@ -27,7 +26,6 @@
 .nav-image{
     height: 80px;
     width: 80px;
-    display: block;
 }
 .nav-items-text{
     position: absolute;

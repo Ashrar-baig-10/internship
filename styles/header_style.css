@@ -1,18 +1,20 @@
 body{
-    box-sizing: content-box;
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
     font-family: sans-serif ;
     background-color: #d3d3d3;
-    
+    position: absolute;
+    /* width:min-content; */
 }
 .container{
     font-family: sans-serif ;
     background-color: #d3d3d3;
     width: 100%;
+    overflow-x: auto;
 }
 .header{
-    position: fixed;
+    position: absolute;
     z-index: 4;
     width: 100%;
     background-color: white;
@@ -30,7 +32,8 @@ body{
 }
 .header-left{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
 }
 .header-right{
     display: flex;
@@ -43,6 +46,9 @@ body{
     display: flex;
     align-items: center;
     gap: 4px;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
 }
 .form{
     display: flex;
@@ -64,4 +70,38 @@ input{
 .button{
     background-color: #d3d3d3;
     border: none;
+}
+.more{
+    background: transparent;
+    border: none;
+}
+
+/* for login button not accurate */
+.on-hover-login{
+    position: absolute;
+    top: 0;
+    border: 2px solid black;
+    border-radius: 10px;
+    display: none;
+    visibility: hidden;
+    flex-direction: column;
+    gap: 5px;
+    z-index: 2;
+    background-color: white;
+    align-items: flex-start;
+}
+.hovering{
+    text-decoration: none;
+    font-weight: 700;
+    color:black;
+}
+.login:hover +.on-hover-login {
+    position: absolute;
+    display: inline-flex;
+    opacity: 1;
+    visibility: visible;
+}
+.on-hover-login li:hover{
+
+    visibility: visible;
 }

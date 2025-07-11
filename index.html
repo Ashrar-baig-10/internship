@@ -15,7 +15,7 @@
 <body>
     <div class="container">
         <div class="header">
-           <div class="header-right">
+           <div class="header-left">
              <div class="logo">
                 <img src="images/flipkart-logo-flipkart-new-logo-png-transparent-png-removebg-preview.png" class="main-logo"alt="home-logo">
             </div>
@@ -29,22 +29,31 @@
             </div>
            </div>
             <div class="header-right">
-                <div class="login">
+                <a class="login" href="">
                     <img src="/images/icons8-account-48.png" class="images-static" alt="login">
                     <span class="text-header">Login</span>
                     <img src="/images/icons8-arrow-down-50.png" class="images-static" alt="">
-                </div>
-                <div class="cart">
+                    <!-- for login hovering not accurate -->
+                    <ul class="on-hover-login" >
+                        <a class="hovering" href="">Login </a>
+                        <a  class="hovering" href="">Signup </a>
+                        <a  class="hovering" href="">My Profile </a>
+                        <a  class="hovering" href="">Orders </a>
+                        <a  class="hovering"href="">Wishlist </a>
+                        <a  class="hovering" href="">Rewards </a>
+                    </ul>
+                </a>
+                <a class="cart" href="">
                      <img src="/images/icons8-shopping-cart-50.png" class="images-static" alt="cart">
                      <span class="text-header">Cart</span>
-                </div>
-                <div class="seller">
+                </a>
+                <a class="seller" href="">
                      <img src="images/icons8-stall-50.png" class="images-static" alt="seller">
                      <span class="text-header">Become a Seller</span>
-                </div>
-                <div class="more">
+                </a>
+                <button class="more" >
                     <img src="images/icons8-three-dots-24.png" alt="">
-                </div>
+                </button>
             </div>
         </div>
 
@@ -149,6 +158,7 @@
             </div>
         </div>
 
+        <!-- check card.js -->
         <div class="cards">
             <div class="fashion-card">
                 <div>Fashion Top Deals</div>
@@ -178,9 +188,9 @@
     </div>
 
 
+    <!-- check footer.js -->
     <footer >
         <div class="about foot">
-            <!-- check footer.js -->
         </div>
         <div class="group foot"></div>
         <div class="help foot"></div>
